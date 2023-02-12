@@ -31,7 +31,7 @@ jobs:
         python -m unittest discover -v
 
     - name: Deploy to Heroku
-      uses: adnanh/bash-heroku@master
+      uses: giakinh0823/chatgpt3-discord@main
       with:
         heroku_api_key: ${{ env.HEROKU_API_KEY }}
         command: |
